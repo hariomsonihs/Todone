@@ -754,3 +754,31 @@ header {
     animation: spin 1s ease-in-out infinite;
     margin-left: 10px;
 }
+.creator-highlight {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.creator-name {
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    animation: pulse 2s infinite;
+    display: inline-block;
+}
+
+/* If you want a box highlight instead of text gradient */
+.creator-name {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
