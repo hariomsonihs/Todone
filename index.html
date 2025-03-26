@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todone- To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-header">
+                <h1><span class="app-name">Todone</span> <span class="app-subtitle">My Tasks</span></h1>
+            </div>
+            <div class="theme-toggle">
+                <button id="theme-btn" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </header>
+        
+        <div class="todo-app">
+            <div class="input-section">
+                <input type="text" id="task-input" placeholder="Add a new task..." autocomplete="off">
+                <button id="add-btn"><i class="fas fa-plus"></i> Add</button>
+            </div>
+            
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="active">Active</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </div>
+            
+            <div class="priority-tabs">
+                <button class="priority-btn active" data-priority="all">All</button>
+                <button class="priority-btn" data-priority="high">High</button>
+                <button class="priority-btn" data-priority="medium">Medium</button>
+                <button class="priority-btn" data-priority="low">Low</button>
+            </div>
+            
+            <div class="task-controls">
+                <div class="sort-options">
+                    <label for="sort-select">Sort by:</label>
+                    <select id="sort-select">
+                        <option value="date-added">Date Added</option>
+                        <option value="due-date">Due Date</option>
+                        <option value="priority">Priority</option>
+                        <option value="alphabetical">Alphabetical</option>
+                    </select>
+                </div>
+                <button id="clear-completed">Clear Completed</button>
+                <button id="clear-all">Clear All</button>
+            </div>
+            
+            <ul id="task-list"></ul>
+            
+            <div class="task-stats">
+                <span id="tasks-count">0 tasks</span>
+                <span id="completed-count">0 completed</span>
+            </div>
+        </div>
+        
+        <!-- Modal for task details -->
+        <div id="task-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Task Details</h2>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="edit-task-text">Task:</label>
+                        <input type="text" id="edit-task-text">
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-due-date">Due Date:</label>
+                        <input type="date" id="edit-due-date">
+                    </div>
+                    <div class="form-group">
+                        <label>Priority:</label>
+                        <div class="priority-options">
+                            <button class="priority-option high" data-priority="high">High</button>
+                            <button class="priority-option medium" data-priority="medium">Medium</button>
+                            <button class="priority-option low" data-priority="low">Low</button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-notes">Notes:</label>
+                        <textarea id="edit-notes" rows="3"></textarea>
+                    </div>
+                    <button id="save-changes">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <footer class="app-footer">
+            <div class="footer-content">
+                <p>&copy; <span id="current-year"></span> Todone - Modern To-Do List App</p>
+                <p class="footer-links">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <span class="divider">|</span>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <span class="divider">|</span>
+                    <a href="#" class="footer-link">Contact</a>
+                </p>
+            </div>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
