@@ -48,6 +48,36 @@ body {
     color: var(--text-color);
     transition: var(--transition);
     line-height: 1.6;
+    user-select: none;
+    touch-action: manipulation; /* Disables double-tap zoom */
+    -webkit-text-size-adjust: 100%; /* Prevent text size adjustment */
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+/* Additional prevention for iOS Safari */
+html {
+    -webkit-touch-callout: none; /* Prevent callout to copy image, etc when tap to hold */
+    -webkit-user-select: none; /* Prevent copy paste, to allow, change 'none' to 'text' */
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Prevent scaling on form elements */
+input, textarea, select {
+    font-size: 16px !important; /* Prevent iOS zooming on focus */
+    touch-action: manipulation;
+}
+
+/* Specifically prevent zoom on input focus in mobile Safari */
+@media screen and (max-width: 767px) {
+    input[type="text"],
+    input[type="date"],
+    textarea {
+        font-size: 16px !important;
+    }
 }
 
 .container {
