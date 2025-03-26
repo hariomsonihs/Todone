@@ -209,29 +209,6 @@ h1 {
     transform: translateY(-1px);
 }
 
-/* Floating action button for mobile */
-@media (max-width: 768px) {
-    #add-btn {
-        position: fixed;
-        bottom: 2rem;
-        right: 2rem;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        font-size: 1.5rem;
-        z-index: 100;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        animation: pulse 2s infinite;
-    }
-    
-    #add-btn span {
-        display: none;
-    }
-    
-    #add-btn i {
-        margin-right: 0;
-    }
-}
 
 /* Emoji for empty state */
 .no-tasks::before {
