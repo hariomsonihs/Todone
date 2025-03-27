@@ -99,8 +99,8 @@ git push origin feature/AmazingFeature
 
 👤 **Hariom Soni**  
 
-- **Twitter:** [@hariomsoni](https://twitter.com/hariomsonihr)  
-- **Email:** [hariom@example.com](mailto:hariomsoni0818@gmail.com)  
+- **Twitter:** [@hariomsonihr](https://twitter.com/hariomsonihr)  
+- **Email:** [hariomsoni0818@gmail.com](mailto:hariomsoni0818@gmail.com)  
 
 📌 **Project Link:** [GitHub Repository](https://github.com/hariomsonihs/todone)  
 
