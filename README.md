@@ -76,3 +76,11 @@ We welcome contributions! Please follow these steps:
 2. **Create** your feature branch:  
    ```bash
    git checkout -b feature/AmazingFeature
+✉️ Contact
+👤 Hariom Soni
+
+Twitter: @hariomsoni
+
+Email: hariom@example.com
+
+📌 Project Link: GitHub Repository
