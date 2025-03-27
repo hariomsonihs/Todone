@@ -61,7 +61,7 @@ Todone revolutionizes task management with **beautiful gradients**, **smooth ani
 
 ```bash
 # Clone the repository
-git clone https://github.com/hariomsoni/todone.git
+git clone https://github.com/hariomsonihs/todone.git
 
 # Navigate to project directory
 cd todone
