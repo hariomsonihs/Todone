@@ -1,7 +1,7 @@
-# <img src="https://i.imgur.com/JqTf7i3.png" width="40" align="center"> Todone - Ultimate To-Do List App
+# <img src="https://github.com/hariomsonihs/Todone/blob/main/todone.png" width="40" align="center"> Todone - Ultimate To-Do List App
 
 <p align="center">
-  <img src="https://i.imgur.com/mZ4gq5E.gif" width="600" alt="Todone Demo">
+  <img src="https://github.com/hariomsonihs/Todone/blob/main/todone.png" width="600" alt="Todone Demo">
   <br>
   <a href="https://todone-demo.netlify.app">🌐 Live Demo</a> | 
   <a href="#features">✨ Features</a> | 
