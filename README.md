@@ -57,7 +57,9 @@ Todone revolutionizes task management with **beautiful gradients**, **smooth ani
 
 </div>
 
-## 🚀 **Installation**
+## 🚀 Installation  
+
+Follow these steps to set up the project on your local machine:  
 
 ```bash
 # Clone the repository
@@ -68,42 +70,68 @@ cd todone
 
 # Open in browser
 open index.html
+```
 
-# 🤝 Contributing  
+---
+
+## 🤝 Contributing  
+
 We welcome contributions! Please follow these steps:  
 
-1. **Fork** the project  
-2. **Create** your feature branch:  
-   ```bash
-   git checkout -b feature/AmazingFeature
-✉️ Contact
-👤 Hariom Soni
+```bash
+# Fork the project
 
-Twitter: @hariomsoni
+# Create your feature branch
+git checkout -b feature/AmazingFeature
 
-Email: hariom@example.com
+# Commit your changes
+git commit -m 'Add some AmazingFeature'
 
-📌 Project Link: GitHub Repository
+# Push to the branch
+git push origin feature/AmazingFeature
 
+# Open a Pull Request
+```
 
-👨‍💻 Created By
-This project is created and maintained by Hariom Soni.
+---
 
-If you like this project, don't forget to ⭐ the repo and contribute! 🚀
+## ✉️ Contact  
 
-<p align="center"> Made with ❤️ and JavaScript </p>
-🔥 Key Visual Elements Included:
-✅ Animated GIF previews of key features
-🎨 Gradient badges for tech stack
-🚀 Emoji icons for better visual scanning
-💡 Colorful code snippets showing UI animations
-📱 Responsive layout with tables and flexbox
-📊 Badges for GitHub stats
-🎥 YouTube embed placeholder for demo video
-🔗 Contact section with social links
+👤 **Hariom Soni**  
 
-🛠 How to Use:
-🔹 Replace image URLs with your actual screenshots/GIFs
-🔹 Add your real video ID for the demo
-🔹 Update contact information
-🔹 Customize the gradients to match your brand colors
+- **Twitter:** [@hariomsoni](https://twitter.com/hariomsoni)  
+- **Email:** [hariom@example.com](mailto:hariom@example.com)  
+
+📌 **Project Link:** [GitHub Repository](https://github.com/hariomsonihs/todone)  
+
+---
+
+## 👨‍💻 Created By  
+
+This project is created and maintained by **Hariom Soni**.  
+
+If you like this project, don't forget to ⭐ the repo and contribute! 🚀  
+
+<p align="center"> Made with ❤️ and JavaScript </p>  
+
+---
+
+## 🔥 Key Visual Elements Included  
+
+✅ **Animated GIF previews** of key features  
+🎨 **Gradient badges** for tech stack  
+🚀 **Emoji icons** for better visual scanning  
+💡 **Colorful code snippets** showing UI animations  
+📱 **Responsive layout** with tables and flexbox  
+📊 **Badges** for GitHub stats  
+🎥 **YouTube embed placeholder** for demo video  
+🔗 **Contact section** with social links  
+
+---
+
+## 🛠 How to Use  
+
+🔹 **Replace** image URLs with your actual screenshots/GIFs  
+🔹 **Add** your real video ID for the demo  
+🔹 **Update** contact information  
+🔹 **Customize** the gradients to match your brand colors  
