@@ -68,3 +68,11 @@ cd todone
 
 # Open in browser
 open index.html
+
+# 🤝 Contributing  
+We welcome contributions! Please follow these steps:  
+
+1. **Fork** the project  
+2. **Create** your feature branch:  
+   ```bash
+   git checkout -b feature/AmazingFeature
