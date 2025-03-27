@@ -84,3 +84,26 @@ Twitter: @hariomsoni
 Email: hariom@example.com
 
 📌 Project Link: GitHub Repository
+
+
+👨‍💻 Created By
+This project is created and maintained by Hariom Soni.
+
+If you like this project, don't forget to ⭐ the repo and contribute! 🚀
+
+<p align="center"> Made with ❤️ and JavaScript </p>
+🔥 Key Visual Elements Included:
+✅ Animated GIF previews of key features
+🎨 Gradient badges for tech stack
+🚀 Emoji icons for better visual scanning
+💡 Colorful code snippets showing UI animations
+📱 Responsive layout with tables and flexbox
+📊 Badges for GitHub stats
+🎥 YouTube embed placeholder for demo video
+🔗 Contact section with social links
+
+🛠 How to Use:
+🔹 Replace image URLs with your actual screenshots/GIFs
+🔹 Add your real video ID for the demo
+🔹 Update contact information
+🔹 Customize the gradients to match your brand colors
