@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://github.com/hariomsonihs/Todone/blob/main/todone.png" width="600" alt="Todone Demo">
   <br>
-  <a href="https://todone-demo.netlify.app">🌐 Live Demo</a> | 
+  <a href="https://todone-mytask.vercel.app/">🌐 Live Demo</a> | 
   <a href="#features">✨ Features</a> | 
   <a href="#tech-stack">⚙️ Tech Stack</a> | 
   <a href="#installation">📦 Installation</a>
@@ -11,9 +11,8 @@
 
 <div align="center">
   
-![GitHub stars](https://img.shields.io/github/stars/hariomsoni/todone?style=social)
-![GitHub forks](https://img.shields.io/github/forks/hariomsoni/todone?style=social)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub stars](https://github.com/hariomsonihs/todone)
+![GitHub forks](#)
 
 </div>
 
