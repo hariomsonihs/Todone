@@ -32,7 +32,7 @@ Todone revolutionizes task management with **beautiful gradients**, **smooth ani
 | **🎯 Priority System** | 🔥 High / ⚠️ Medium / 🌱 Low priority tags | ![Priority Demo](https://github.com/hariomsonihs/Todone/blob/main/todone-priority.png) |
 | **🌈 Dark/Light Mode** | Eye-friendly theme switching | ![Theme Demo](https://github.com/hariomsonihs/Todone/blob/main/todone-dark.png) |
 | **📅 Due Dates** | Never miss deadlines with date tracking | ![Date Picker](https://github.com/hariomsonihs/Todone/blob/main/todone-priority.png) |
-| **🔄 Drag & Drop** | Intuitive task reordering | ![Drag Demo](https://i.imgur.com/mZ4gq5E.gif) |
+| **🔄 Drag & Drop** | Intuitive task reordering | ![Drag Demo](https://github.com/hariomsonihs/Todone/blob/main/todone-task-mng.png) |
 | **📊 Statistics** | Track completed tasks | ![Stats Demo](https://i.imgur.com/JqTf7i3.png) |
 
 ## ⚙️ **Tech Stack**
